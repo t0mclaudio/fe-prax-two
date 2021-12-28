@@ -5,8 +5,8 @@ import Student from "./Student";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<Students />} />
-      <Route path="/:id" element={<Student />} />
+      <Route exact path="/fe-prax-two" element={<Students />} />
+      <Route path="/fe-prax-two/:id" element={<Student />} />
     </Routes>
   );
 };
