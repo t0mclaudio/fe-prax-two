@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { StudentContext } from "../context";
+import styles from "./styles.module.scss";
 
 function Student() {
   const [student, setStudent] = useState(null);
@@ -14,12 +15,14 @@ function Student() {
 
   if (student) {
     return (
-      <figure>
-        <img src={student.picture.large} alt={student.name.first} />
-        <figcaption>
-          {student.name.first} {student.name.last}
-        </figcaption>
-      </figure>
+      <article className={styles.studentWrapper}>
+        <figure>
+          <img src={student.picture.large} alt={student.name.first} />
+          <figcaption>
+            {student.name.first} {student.name.last}
+          </figcaption>
+        </figure>
+      </article>
     );
   } else {
     return <div>nothing found</div>;
