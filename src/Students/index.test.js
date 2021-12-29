@@ -32,6 +32,6 @@ describe("Students page", () => {
   test("have the expected href attribute", () => {
     render(<StudentsWithmockedContext />);
     const linkToStudentPage = screen.getByRole("link");
-    expect(linkToStudentPage).toHaveAttribute("href", "/123");
+    expect(linkToStudentPage).toHaveAttribute("href", "/fe-prax-two/123");
   });
 });

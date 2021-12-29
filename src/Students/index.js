@@ -9,7 +9,10 @@ function Students() {
   return (
     <section id="students" className={styles.studentsSection}>
       {students.map((student) => (
-        <Link to={`/${student.login.uuid}`} key={`${student.login.uuid}`}>
+        <Link
+          to={`/fe-prax-two/${student.login.uuid}`}
+          key={`${student.login.uuid}`}
+        >
           <figure>
             <img src={student.picture.large} alt={student.name.first} />
             <figcaption>
