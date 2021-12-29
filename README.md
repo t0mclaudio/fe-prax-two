@@ -6,16 +6,16 @@ This is a Frontend project that lists students and their profile.
 
 ### Requirements
 
-- [ ] Create React App
-- [ ] Implement using React Context
-- [ ] List of student page and individual pages
+- [x] Create React App
+- [x] Implement using React Context
+- [x] List of student page and individual pages
 - [ ] Implement pagination
-- [ ] Use Sass
+- [x] Use Sass
 - [ ] make responsive
-- [ ] Write tests per page
+- [x] Write tests per page
 - [ ] Use GTM
 - [ ] Add a feature flag for Sentry
-- [ ] Implement CI/CD
+- [x] Implement CI/CD
   - Push to master
   - Deploy to Github pages
 - [ ] Create a Dockerfile
