@@ -8,12 +8,12 @@ function Students() {
   const { students } = useContext(StudentContext);
   return (
     <section id="students" className={styles.studentsSection}>
-      {students.map((student) => (
+      {students.map((student, idx) => (
         <Link
           to={`/fe-prax-two/${student.login.uuid}`}
           key={`${student.login.uuid}`}
         >
-          <figure>
+          <figure style={{ animationDelay: `${100 * (idx + 1)}ms` }}>
             <img src={student.picture.large} alt={student.name.first} />
             <figcaption>
               <div>

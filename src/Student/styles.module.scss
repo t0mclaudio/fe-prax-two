@@ -10,5 +10,15 @@
     padding: 0;
     justify-self: center;
     align-self: center;
+    animation: build 250ms ease-in-out forwards;
+  }
+  @keyframes build {
+    0% {
+      transform: rotateY(45deg);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

@@ -12,10 +12,15 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, auto);
+      opacity: 0;
+      animation: build 150ms ease-out;
+      animation-fill-mode: forwards;
       img {
         border-radius: 5px;
         grid-column: 1/2;
         grid-row: 1/3;
+        min-height: 128px;
+        background-color: gray;
       }
       figcaption {
         div {
@@ -30,6 +35,15 @@
         font-size: 0.8rem;
         font-weight: bold;
         text-align: center;
+      }
+    }
+    @keyframes build {
+      from {
+        transform: translateY(-75px);
+        opacity: 0;
+      }
+      to {
+        opacity: 100;
       }
     }
   }
