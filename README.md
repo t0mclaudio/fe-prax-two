@@ -16,6 +16,6 @@ This is a Frontend project that lists students and their profile.
 - [ ] Use GTM
 - [ ] Add a feature flag for Sentry
 - [x] Implement CI/CD
-  - Push to master
-  - Deploy to Github pages
+- [x] Push to master
+- [x] Deploy to Github pages
 - [ ] Create a Dockerfile
