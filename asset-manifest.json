@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fe-prax-two/static/css/main.2d492324.css",
-    "main.js": "/fe-prax-two/static/js/main.5b0d4a72.js",
+    "main.css": "/fe-prax-two/static/css/main.a8fa7400.css",
+    "main.js": "/fe-prax-two/static/js/main.591c5769.js",
     "static/js/787.6a5d6fd1.chunk.js": "/fe-prax-two/static/js/787.6a5d6fd1.chunk.js",
     "index.html": "/fe-prax-two/index.html",
-    "main.2d492324.css.map": "/fe-prax-two/static/css/main.2d492324.css.map",
-    "main.5b0d4a72.js.map": "/fe-prax-two/static/js/main.5b0d4a72.js.map",
+    "main.a8fa7400.css.map": "/fe-prax-two/static/css/main.a8fa7400.css.map",
+    "main.591c5769.js.map": "/fe-prax-two/static/js/main.591c5769.js.map",
     "787.6a5d6fd1.chunk.js.map": "/fe-prax-two/static/js/787.6a5d6fd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d492324.css",
-    "static/js/main.5b0d4a72.js"
+    "static/css/main.a8fa7400.css",
+    "static/js/main.591c5769.js"
   ]
 }
