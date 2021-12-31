@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import api from "./api";
+import { getStudents } from "./api";
 
 export const StudentContext = React.createContext({});
 
@@ -7,7 +7,7 @@ function AppContext(props) {
   const [students, setStudents] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      const { results } = await api.getStudents();
+      const { results } = await getStudents();
       setStudents(results);
     };
     fetchData();
