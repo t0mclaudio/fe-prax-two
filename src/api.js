@@ -5,4 +5,4 @@ const api = {
     fetch(`${API_BASE_URL}?results=100`).then((res) => res.json()),
 };
 
-export default api;
+export const getStudents = async () => await api.getStudents();
